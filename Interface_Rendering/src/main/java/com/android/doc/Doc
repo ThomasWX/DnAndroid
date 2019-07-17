@@ -1,0 +1,19 @@
+渲染--属于 Paint 画笔的高级技能，主要用到Shader类
+    BitmapShader 位图的图像渲染器
+        TitleMode.CLAMP 拉伸最后一个像素去铺满剩下的地方
+        TitleMode.MIRROR 通过镜像翻转铺满剩下的地方
+        Title.REPEAT 重复图片填充整个画面
+
+    LinearGradient 线性渲染
+    RadialGradient 环形渲染
+    SweepGradient 梯度渲染 (扫描渲染)
+    ComposeShader 组合渲染
+
+可以绘制 图片、颜色块、文字
+
+canvas.drawCircle()
+
+canvas.drawRect()
+
+canvas.drawOval()
+
